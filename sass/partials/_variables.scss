@@ -33,6 +33,9 @@ background-color: #A27B5C;
 
 @mixin greenbox{
     background-color: #3F4F44;
-    color:#DCD7C9;
+    h2, p {
+    color:#DCD7C9 !important;
 }
+}
+
 
