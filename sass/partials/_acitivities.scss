@@ -1,0 +1,134 @@
+@use "variables" as vars;
+
+main{
+    .initial-page{
+        background-image: url(../IMAGENES/imagen18.jpg);
+        height: 300px;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        }
+    .activities-bkg{
+        background-image: url(../IMAGENES/imagen19.jpg);
+        height: 700px;
+        display: flex;
+        background-size: cover;
+        background-position:center;
+        padding: 20px;
+        align-items:end;
+        justify-content: center;
+        margin-top: 30px;
+        .activities-container{
+            @include vars.greenbox;
+            width: 700px;
+            height: 250px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: -100px;
+            }
+        button{
+            @extend %boton-naranja !optional;
+            padding: 10px 40px;
+            margin-top: 20px;
+            }
+        }
+    .map{
+        background-color: #3F4F44;
+        height: 600px;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        margin-top: 120px;
+        img {
+        height: 100%;
+        }
+    }
+    
+    .reservation-form {
+        background-color: #DCD7C9;
+        text-align: center;
+        padding: 40px 0;
+        .reservation-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        }
+        .reservation-form-col {
+        max-width: 500px;
+        flex: 1;
+        }
+        input,
+        textarea {
+        background-color: #F1EFE9;
+        padding: 7px;
+        margin: 10px 20px;
+        border: none;
+        width: calc(100% - 40px);
+        font-family: "Montserrat", sans-serif;
+        font-size: 1em;
+        color: #3F4F44;
+        }
+        input[type="submit"],
+        button[type="submit"] {
+        @extend %boton-naranja;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+        &:hover {
+            background-color: #8f6549;
+        }
+        }
+    }
+    .spa-bkg{
+        background-image: url(../IMAGENES/imagen20.jpg);
+        height: 700px;
+        display: flex;
+        background-size: cover;
+        background-position:center;
+        padding: 20px;
+        align-items:end;
+        justify-content: center;
+        margin-top: 30px;
+        h2, p{
+            color: #DCD7C9;
+            padding: 0 20px;
+        }
+        }
+    .spa{
+        background-color: #DCD7C9;
+        margin-top: 120px;
+        display: flex;
+        height: 100%;
+        padding: 0 5%;
+        margin-bottom: 30px;
+        button{
+            @extend %boton-naranja;
+            margin-bottom: 40px;
+            padding: 5px 30px;
+        }
+        .spa-col1 {
+            width: 40%;
+            padding: 40px;
+            align-content: center;
+            text-align: center;
+        }
+        .spa-col2{
+            width: 60%;
+            padding: 8%;
+            align-content: center;
+            .spa-container{
+                background-color: #F1EFE9;
+                padding: 20px;
+                border-radius: 20px;
+                margin: 20px;
+                h3{
+                    margin-top: 0;
+                }
+                } 
+        }
+    }
+}

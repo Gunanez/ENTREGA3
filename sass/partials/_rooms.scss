@@ -1,0 +1,81 @@
+@use "variables" as vars;
+
+main {
+    .rooms-page {
+        background-image: url(../IMAGENES/imagen4.jpg);
+        height: 300px;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+    .our-rooms {
+        color: #DCD7C9;
+        background-color: #3F4F44;
+        background-position: top;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        h2, p {
+        color: #DCD7C9;
+        }
+
+        .rooms-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px 0; 
+        .room-card {
+            width: 470px;
+            background-color: #DCD7C9;
+            height: 100%;
+            text-align: left;
+            .room-card-text {
+            padding: 20px;
+            }
+            h3 {
+            text-align: left;
+            margin-top: 0;
+            }
+            p {
+            color: #3F4F44;
+            }
+            button {
+            @extend %boton-naranja !optional
+            }
+        }
+        } 
+    }
+    .room-bkg, .room-bkg2, .room-bkg3 {
+        height: 700px;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        align-items: end;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .room-bkg {
+        background-image: url(../IMAGENES/imagen16.jpg);
+    }
+    .room-bkg2 {
+        background-image: url(../IMAGENES/imagen15.jpg);
+        margin-top: 120px;
+    }
+    .room-bkg3 {
+        background-image: url(../IMAGENES/imagen17.jpg);
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    .spacious {
+        background-color: #3F4F44;
+        width: 600px;
+        height: 200px;
+        padding: 10px 20px;
+        text-align: center;
+        margin-bottom: -100px;
+        h3, p {
+        color: #DCD7C9;
+        }
+    }
+    }

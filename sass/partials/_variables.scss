@@ -1,0 +1,38 @@
+$verde-claro: #3F4F44;
+$verde-oscuro: #2C3930;
+$crema:#DCD7C9;
+$naranja: #A27B5C;
+$font:"Montserrat", sans-serif;
+
+button {
+    background-color: #3F4F44;
+    color: #DCD7C9;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+background-color: #A27B5C;
+}
+
+@keyframes myAnimation{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+%boton-naranja{
+    background-color: #A27B5C;
+    padding: 10px 35px;
+    border:none;
+    cursor: pointer;
+    }
+
+
+@mixin greenbox{
+    background-color: #3F4F44;
+    color:#DCD7C9;
+}
+

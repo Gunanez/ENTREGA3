@@ -1,0 +1,29 @@
+.contact-page{
+    background-image: url(../IMAGENES/imagen23.jpg);
+    height: 300px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    }
+.contact-data{
+    background-color:#3F4F44;
+    height: 600px;
+    width: 40%;
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    margin: 50px;
+    .h3,.p{
+        color: #DCD7C9;
+    }
+    .p{
+        font-size: 20px
+    }
+    }
+.maps iframe{
+        height: 480px;
+        width: 100%;
+        margin-top: 30px
+        }

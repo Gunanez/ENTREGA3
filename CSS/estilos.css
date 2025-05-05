@@ -1,0 +1,1156 @@
+button {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  padding: 10px 35px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #A27B5C;
+}
+
+@keyframes myAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+main .activities-bkg button, main .reservation-form input[type=submit],
+main .reservation-form button[type=submit], main .spa button, main .our-rooms .rooms-container .room-card button, main .cava-bkg .cava .button {
+  background-color: #A27B5C;
+  padding: 10px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  background-color: #3F4F40;
+  padding: 20px;
+}
+header ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+header ul li {
+  color: #DCD7C9;
+  list-style-type: none;
+  font-family: "Montserrat";
+}
+header ul a {
+  text-decoration: none;
+}
+header ul .contact-menu-item {
+  background-color: #A27B5C;
+  padding: 15px 35px;
+}
+header ul .menu-icon {
+  justify-self: right;
+  padding-right: 30px;
+}
+
+footer {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  text-align: center;
+}
+
+main {
+  overflow-x: clip;
+}
+main .hero-bkg {
+  background-image: url(../IMAGENES/HOME.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+main .welcome {
+  background-color: rgba(217, 217, 217, 0.6235294118);
+  backdrop-filter: blur(19.5px);
+  text-align: center;
+  width: 600px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px;
+}
+main .activities {
+  background-color: #DCD7C9;
+  text-align: center;
+}
+main .activities .flex-container {
+  display: flex;
+}
+main .activities .box {
+  background-color: #959a9c;
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  padding: 30px;
+}
+main .ourstory-bkg {
+  background-image: url(../IMAGENES/OURSTORY.JPG);
+  height: 800px;
+  display: flex;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: initial;
+  align-items: center;
+  margin-top: 30px;
+}
+main .ourstory-bkg .ourstory {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  width: 60%;
+  padding: 15px;
+  height: 70%;
+  border-radius: 30px 0 0 30px;
+  padding: 50px;
+}
+main .rooms {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  padding: 15px;
+  height: 20%;
+  padding: 20px 0;
+  background-position: top;
+  text-align: center;
+  margin-top: 30px;
+}
+main .rooms .image-rooms {
+  max-height: 800px;
+  width: 100%;
+}
+main .rooms .rooms-buttons ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  align-content: space-evenly;
+  padding: 30px;
+}
+main .rooms .rooms-buttons ul li {
+  background-color: #A27B5C;
+  padding: 5px 20px;
+  list-style-type: none;
+}
+main .restaurant-bkg {
+  display: flex;
+  justify-content: flex-end;
+  background-position: initial;
+  align-items: center;
+  margin-top: 30px;
+}
+main .restaurant-bkg .image-restaurant {
+  height: 500px;
+  width: 50%;
+}
+main .restaurant-bkg .restaurant {
+  background-color: #DCD7C9;
+  width: 50%;
+  height: 500px;
+  padding-left: 20px;
+  text-align: center;
+}
+main .cava-bkg {
+  background-image: url(../IMAGENES/imagen6.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+}
+main .cava-bkg .cava {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  width: 700px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+main .cava-bkg .cava .button {
+  margin: 0 30px;
+}
+main .contact-container {
+  display: flex;
+  background-color: #DCD7C9;
+  margin-top: 100px;
+  width: 100%;
+}
+main .contact-container .contact-form-container {
+  max-width: 700px;
+  padding: 70px;
+  text-align: left;
+}
+main .contact-container .contact-form-container form {
+  width: 80%;
+}
+main .contact-container .contact-form-container form input {
+  background-color: #DCD7C9;
+  border: 0 solid black;
+  border-bottom: solid 1px;
+  width: 100%;
+}
+main .contact-container .contact-form-container form textarea {
+  width: 100%;
+  border: none;
+  background-color: #F1EFE9;
+}
+main .contact-container .contact-form-container form input[type=submit] {
+  margin-top: 20px;
+}
+main .contact-container .contact-image-container img {
+  max-width: 100%;
+  height: 100%;
+}
+
+main .rooms-page {
+  background-image: url(../IMAGENES/imagen4.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+main .our-rooms {
+  color: #DCD7C9;
+  background-color: #3F4F44;
+  background-position: top;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+main .our-rooms h2, main .our-rooms p {
+  color: #DCD7C9;
+}
+main .our-rooms .rooms-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+main .our-rooms .rooms-container .room-card {
+  width: 470px;
+  background-color: #DCD7C9;
+  height: 100%;
+  text-align: left;
+}
+main .our-rooms .rooms-container .room-card .room-card-text {
+  padding: 20px;
+}
+main .our-rooms .rooms-container .room-card h3 {
+  text-align: left;
+  margin-top: 0;
+}
+main .our-rooms .rooms-container .room-card p {
+  color: #3F4F44;
+}
+main .room-bkg, main .room-bkg2, main .room-bkg3 {
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+  margin-top: 30px;
+}
+main .room-bkg {
+  background-image: url(../IMAGENES/imagen16.jpg);
+}
+main .room-bkg2 {
+  background-image: url(../IMAGENES/imagen15.jpg);
+  margin-top: 120px;
+}
+main .room-bkg3 {
+  background-image: url(../IMAGENES/imagen17.jpg);
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+main .spacious {
+  background-color: #3F4F44;
+  width: 600px;
+  height: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+main .spacious h3, main .spacious p {
+  color: #DCD7C9;
+}
+
+main .initial-page {
+  background-image: url(../IMAGENES/imagen18.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+main .activities-bkg {
+  background-image: url(../IMAGENES/imagen19.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+  margin-top: 30px;
+}
+main .activities-bkg .activities-container {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  width: 700px;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+main .activities-bkg button {
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+main .map {
+  background-color: #3F4F44;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: 120px;
+}
+main .map img {
+  height: 100%;
+}
+main .reservation-form {
+  background-color: #DCD7C9;
+  text-align: center;
+  padding: 40px 0;
+}
+main .reservation-form .reservation-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+main .reservation-form .reservation-form-col {
+  max-width: 500px;
+  flex: 1;
+}
+main .reservation-form input,
+main .reservation-form textarea {
+  background-color: #F1EFE9;
+  padding: 7px;
+  margin: 10px 20px;
+  border: none;
+  width: calc(100% - 40px);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: #3F4F44;
+}
+main .reservation-form input[type=submit],
+main .reservation-form button[type=submit] {
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+main .reservation-form input[type=submit]:hover,
+main .reservation-form button[type=submit]:hover {
+  background-color: #8f6549;
+}
+main .spa-bkg {
+  background-image: url(../IMAGENES/imagen20.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+  margin-top: 30px;
+}
+main .spa-bkg h2, main .spa-bkg p {
+  color: #DCD7C9;
+  padding: 0 20px;
+}
+main .spa {
+  background-color: #DCD7C9;
+  margin-top: 120px;
+  display: flex;
+  height: 100%;
+  padding: 0 5%;
+  margin-bottom: 30px;
+}
+main .spa button {
+  margin-bottom: 40px;
+  padding: 5px 30px;
+}
+main .spa .spa-col1 {
+  width: 40%;
+  padding: 40px;
+  align-content: center;
+  text-align: center;
+}
+main .spa .spa-col2 {
+  width: 60%;
+  padding: 8%;
+  align-content: center;
+}
+main .spa .spa-col2 .spa-container {
+  background-color: #F1EFE9;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+main .spa .spa-col2 .spa-container h3 {
+  margin-top: 0;
+}
+
+main .restaurant-page {
+  background-image: url(../IMAGENES/imagen22.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+main .restaurant-col {
+  background-color: #DCD7C9;
+  margin-top: 30px;
+  display: flex;
+  height: 100%;
+  padding: 0 5%;
+  margin-bottom: 30px;
+}
+main .restaurant-col .restaurant-col1 {
+  width: 50%;
+  padding: 40px;
+  align-content: center;
+  text-align: center;
+}
+main .restaurant-col .restaurant-col2 {
+  align-content: center;
+  width: 50%;
+  padding: 20px 30px;
+  margin: 20px;
+}
+main .restaurant-col .restaurant-col2 img {
+  height: 500px;
+}
+main .wine-bkg {
+  background-image: url(../IMAGENES/imagen6.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+main .reservation-form {
+  background-color: #DCD7C9;
+  text-align: center;
+  padding-top: 40px;
+}
+main .reservation-form .reservation-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+main .reservation-form .reservation-container .reservation-form-col {
+  max-width: 500px;
+}
+main .reservation-form .reservation-container .reservation-form-col .reservation-form input[type=submit] {
+  background-color: #3F4F44;
+}
+
+.contact-page {
+  background-image: url(../IMAGENES/imagen23.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+.contact-data {
+  background-color: #3F4F44;
+  height: 600px;
+  width: 40%;
+  margin-top: 30px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  margin: 50px;
+}
+.contact-data .h3, .contact-data .p {
+  color: #DCD7C9;
+}
+.contact-data .p {
+  font-size: 20px;
+}
+
+.maps iframe {
+  height: 480px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+@media (max-width: 750px) {
+  header ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .menu-item {
+    display: none;
+  }
+  .contact-image-container {
+    display: none;
+  }
+  .cava {
+    width: 80%;
+  }
+  .flex-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .rooms-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .room-card {
+    width: 80%;
+  }
+  .rooms-buttons ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .map {
+    padding: 0 !important;
+    height: 280px !important;
+  }
+  .map img {
+    width: 100%;
+  }
+  .reservation-container {
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+  }
+  .spa {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .spa .spa-col1, .spa .spa-col2 {
+    width: 100% !important;
+  }
+  .restaurant-col {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .restaurant-col .restaurant-col1 {
+    width: 100% !important;
+  }
+  .restaurant-col .restaurant-col2 {
+    width: 100% !important;
+  }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .contact-container .contact-data {
+    width: 80%;
+  }
+  .spacious {
+    height: 250px !important;
+  }
+}
+@media (min-width: 751px) {
+  .menu-icon {
+    display: none;
+  }
+}
+html, body, main {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+p, h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1, h2 {
+  color: #3F4F40;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #3F4F44;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+
+p {
+  color: #3F4F44;
+  font-size: 1em;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+}
+
+button {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  padding: 10px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  background-color: #3F4F40;
+  padding: 20px;
+}
+header ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+header ul li {
+  color: #DCD7C9;
+  list-style-type: none;
+  font-family: "Montserrat";
+}
+header ul a {
+  text-decoration: none;
+}
+header ul .contact-menu-item {
+  background-color: #A27B5C;
+  padding: 15px 35px;
+}
+header ul .menu-icon {
+  justify-self: right;
+  padding-right: 30px;
+}
+
+/*index*/
+main {
+  overflow-x: clip;
+}
+main .hero-bkg {
+  background-image: url(../IMAGENES/HOME.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+main .welcome {
+  background-color: rgba(217, 217, 217, 0.6235294118);
+  backdrop-filter: blur(19.5px);
+  text-align: center;
+  width: 600px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px;
+}
+main .activities {
+  background-color: #DCD7C9;
+  text-align: center;
+}
+main .activities .flex-container {
+  display: flex;
+}
+main .activities .box {
+  background-color: #959a9c;
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  padding: 30px;
+}
+main .ourstory-bkg {
+  background-image: url(../IMAGENES/OURSTORY.JPG);
+  height: 800px;
+  display: flex;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: initial;
+  align-items: center;
+  margin-top: 30px;
+}
+main .ourstory-bkg .ourstory {
+  color: #DCD7C9;
+  background-color: #3F4F44;
+  width: 60%;
+  padding: 15px;
+  height: 70%;
+  border-radius: 30px 0 0 30px;
+  padding: 50px;
+}
+main .ourstory-bkg .ourstory h2, main .ourstory-bkg .ourstory p {
+  color: #DCD7C9;
+}
+main .rooms {
+  color: #DCD7C9;
+  background-color: #3F4F44;
+  padding: 15px;
+  height: 20%;
+  padding: 20px 0;
+  background-position: top;
+  text-align: center;
+  margin-top: 30px;
+}
+main .rooms .image-rooms {
+  max-height: 800px;
+  width: 100%;
+}
+main .rooms .rooms-buttons ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  align-content: space-evenly;
+  padding: 30px;
+}
+main .rooms .rooms-buttons ul .rooms-buttons li {
+  background-color: #A27B5C;
+  padding: 5px 20px;
+  list-style-type: none;
+}
+main .restaurant-bkg {
+  display: flex;
+  justify-content: flex-end;
+  background-position: initial;
+  align-items: center;
+  margin-top: 30px;
+}
+main .restaurant-bkg .image-restaurant {
+  height: 500px;
+  width: 50%;
+}
+main .restaurant-bkg .restaurant {
+  background-color: #DCD7C9;
+  width: 50%;
+  height: 500px;
+  padding-left: 20px;
+  text-align: center;
+}
+main .cava-bkg {
+  background-image: url(../IMAGENES/imagen6.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+}
+main .cava-bkg .cava {
+  background-color: #3F4F44;
+  width: 700px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+main .cava-bkg .cava button {
+  background-color: #A27B5C;
+  margin: 0 30 px;
+}
+main .cava-bkg .cava h3, main .cava-bkg .cava p {
+  color: #DCD7C9;
+  text-align: center;
+}
+main .contact-container {
+  display: flex;
+  background-color: #DCD7C9;
+  margin-top: 100px;
+  width: 100%;
+}
+main .contact-container .contact-form-container {
+  max-width: 700px;
+  padding: 70px;
+  text-align: left;
+}
+main .contact-container .contact-form-container form {
+  width: 80%;
+}
+main .contact-container .contact-form-container form input {
+  background-color: #DCD7C9;
+  border: 0 solid black;
+  border-bottom: solid 1px;
+  width: 100%;
+}
+main .contact-container .contact-form-container form textarea {
+  width: 100%;
+  border: none;
+  background-color: #F1EFE9;
+}
+main .contact-container .contact-form-container form input[type=submit] {
+  background-color: #3F4F44;
+  color: #DCD7C9;
+  padding: 10px 35px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+main .contact-container .contact-image-container img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/*rooms*/
+.rooms-page {
+  background-image: url(../IMAGENES/imagen4.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.our-rooms {
+  color: #DCD7C9;
+  background-color: #3F4F44;
+  background-position: top;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.our-rooms h2, .our-rooms p {
+  color: #DCD7C9;
+}
+.our-rooms .rooms-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+.our-rooms .rooms-container .room-card {
+  width: 470px;
+  background-color: #DCD7C9;
+  height: 100%;
+  text-align: left;
+}
+.our-rooms .rooms-container .room-card .room-card-text {
+  padding: 20px;
+}
+.our-rooms .rooms-container .room-card h3 {
+  text-align: left;
+  margin-top: 0;
+}
+.our-rooms .rooms-container .room-card p {
+  color: #3F4F44;
+}
+.our-rooms .rooms-container .room-card button {
+  background-color: #A27B5C;
+}
+.our-rooms .room-bkg, .our-rooms .room-bkg2, .our-rooms .room-bkg3 {
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+  margin-top: 30px;
+}
+.our-rooms .spacious {
+  background-color: #3F4F44;
+  width: 600px;
+  height: 200px;
+  padding: 10px;
+  padding-block: 10px 20px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+.our-rooms .spacious h3, .our-rooms .spacious p {
+  color: #DCD7C9;
+}
+.our-rooms .spacious .room-bkg {
+  background-image: url(../IMAGENES/imagen16.jpg);
+}
+.our-rooms .spacious .room-bkg2 {
+  background-image: url(../IMAGENES/imagen15.jpg);
+  margin-top: 120px;
+}
+.our-rooms .spacious .room-bkg3 {
+  background-image: url(../IMAGENES/imagen17.jpg);
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+/*ACTIVITIES*/
+.initial-page {
+  background-image: url(../IMAGENES/imagen18.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.activities-bkg {
+  background-image: url(../IMAGENES/imagen19.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+  margin-top: 30px;
+}
+.activities-bkg .activities-container {
+  background-color: #3F4F44;
+  width: 700px;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+.activities-bkg .activities-container h2, .activities-bkg .activities-container p {
+  color: #DCD7C9;
+}
+.activities-bkg button {
+  background-color: #A27B5C;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.map {
+  background-color: #3F4F44;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: 120px;
+}
+.map img {
+  height: 100%;
+}
+
+.reservation-form .reservation-container {
+  background-color: #DCD7C9;
+  height: 350px;
+  text-align: center;
+  padding: 20px;
+}
+.reservation-form .reservation-container input, .reservation-form .reservation-container textarea {
+  background-color: #F1EFE9;
+  padding: 7px;
+  margin: 10px 20px;
+  border: none;
+}
+.reservation-form .reservation-container button {
+  padding: 5px 60px;
+  margin-top: 30px;
+  background-color: #A27B5C;
+}
+
+.spa-bkg {
+  background-image: url(../IMAGENES/imagen20.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align-items: end;
+  justify-content: center;
+  margin-top: 30px;
+}
+.spa-bkg h2, .spa-bkg p {
+  color: #DCD7C9;
+  padding: 0 20px;
+}
+
+.spa {
+  background-color: #DCD7C9;
+  margin-top: 120px;
+  display: flex;
+  height: 100%;
+  padding: 0 5%;
+  margin-bottom: 30px;
+}
+.spa button {
+  background-color: #A27B5C;
+  margin-bottom: 40px;
+  padding: 5px 30px;
+}
+.spa .spa-col1 {
+  width: 40%;
+  padding: 40px;
+  align-content: center;
+  text-align: center;
+}
+.spa .spa-col2 {
+  width: 60%;
+  padding: 8%;
+  align-content: center;
+}
+.spa .spa-col2 .spa-container {
+  background-color: #F1EFE9;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.spa .spa-col2 .spa-container h3 {
+  margin-top: 0;
+}
+
+.main .restaurant-page {
+  background-image: url(../IMAGENES/imagen22.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.main .restaurant-col {
+  background-color: #DCD7C9;
+  margin-top: 30px;
+  display: flex;
+  height: 100%;
+  padding: 0 5%;
+  margin-bottom: 30px;
+}
+.main .restaurant-col .restaurant-col1 {
+  width: 50%;
+  padding: 40px;
+  align-content: center;
+  text-align: center;
+}
+.main .restaurant-col .restaurant-col2 {
+  align-content: center;
+  width: 50%;
+  padding: 20px 30px;
+  margin: 20px;
+}
+.main .restaurant-col .restaurant-col2 img {
+  height: 500px;
+}
+.main .restaurant-col .wine-bkg {
+  background-image: url(../IMAGENES/imagen6.jpg);
+  height: 700px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.main .restaurant-col .reservation-form {
+  background-color: #DCD7C9;
+  text-align: center;
+  padding-top: 40px;
+}
+.main .restaurant-col .reservation-form .reservation-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.main .restaurant-col .reservation-form .reservation-container .reservation-form-col {
+  max-width: 500px;
+}
+.main .restaurant-col .reservation-form .reservation-container .reservation-form-col .reservation-form input[type=submit] {
+  background-color: #3F4F44;
+}
+
+main .contact-page {
+  background-image: url(../IMAGENES/imagen23.jpg);
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+main .contact-data {
+  background-color: #3F4F44;
+  height: 600px;
+  width: 40%;
+  margin-top: 30px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  margin: 50px;
+}
+main .contact-data h3, main .contact-data p {
+  color: #DCD7C9;
+}
+main .contact-data p {
+  font-size: 20px;
+}
+main .maps iframe {
+  height: 480px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #2C3930;
+}
+footer p {
+  color: #DCD7C9;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  header ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .menu-item {
+    display: none;
+  }
+  .contact-image-container {
+    display: none;
+  }
+  .cava {
+    width: 80%;
+  }
+  .flex-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .rooms-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .room-card {
+    width: 80%;
+  }
+  .rooms-buttons ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 751px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

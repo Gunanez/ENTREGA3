@@ -1,0 +1,58 @@
+main{
+    .restaurant-page{
+        background-image: url(../IMAGENES/imagen22.jpg);
+        height: 300px;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        }
+    .restaurant-col{
+        background-color: #DCD7C9;
+        margin-top: 30px;
+        display: flex;
+        height: 100%;
+        padding: 0 5%;
+        margin-bottom: 30px;
+        .restaurant-col1 {
+            width: 50%;
+            padding: 40px;
+            align-content: center;
+            text-align: center;
+        }
+        .restaurant-col2{
+            align-content: center;
+            width: 50%;
+            padding: 20px 30px;
+            margin: 20px;
+            img {
+            height: 500px;
+            }
+        }
+    }
+    .wine-bkg{
+        background-image: url(../IMAGENES/imagen6.jpg);
+        height: 700px;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        }
+    .reservation-form {
+        background-color: #DCD7C9;
+        text-align: center;
+        padding-top: 40px;
+        .reservation-container {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            .reservation-form-col {
+                max-width: 500px;
+                .reservation-form input[type=submit] {
+                    background-color: #3F4F44;
+                }
+            }
+        }
+        }
+        
+    }
